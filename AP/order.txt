@@ -1,0 +1,64 @@
+
+Student Name: OVO Sound
+Student ID1233
+Location: NIOP
+----SNACK ORDER--
+
+Snickers	 0
+Pringles	1
+Bun	 0
+Crix 	0
+Oreo 	0
+Total Price:  300.0
+
+Student Name: YOU
+Student ID1234
+Location: ME
+----SNACK ORDER--
+
+Snack Name	Quantity
+Snickers	 0
+Pringles	0
+Bun	 3
+Crix 	3
+Oreo 	0
+Total Price:  1440.0
+
+Student Name: Bergen
+Student ID123
+Location: Hole
+----SNACK ORDER--
+
+Snack Name	Quantity
+Snickers	 1
+Pringles	0
+Bun	 1
+Crix 	0
+Oreo 	1
+Total Price:  600.0
+
+Student Name: Gilroy
+Student ID1234
+Location: Barn
+----SNACK ORDER--
+
+Snack Name	Quantity
+Snickers	 1
+Pringles	1
+Bun	 5
+Crix 	1
+Oreo 	2
+Total Price:  2480.0
+
+Student Name: HEYY11
+Student ID11222
+Location: JH
+----SNACK ORDER--
+
+Snack Name	Quantity
+Snickers	 0
+Pringles	0
+Bun	 0
+Crix 	2
+Oreo 	0
+Total Price:  260.0
