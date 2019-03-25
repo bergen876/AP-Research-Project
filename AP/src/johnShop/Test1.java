@@ -28,9 +28,12 @@ public class Test1 extends JFrame implements ActionListener {
 	ImagePanel panel1 = new ImagePanel(new ImageIcon("background3.png").getImage());
 	ImagePanel panel2 = new ImagePanel(new ImageIcon("background3.png").getImage());
 	ImagePanel panel3 = new ImagePanel(new ImageIcon("background3.png").getImage());
-			
+	
+	
+
+	
 	JTextField field4 = new JTextField(1);
-	JTextField field5 = new JTextField(1);
+	JPasswordField field5 = new JPasswordField(1);
 	JTextField field = new JTextField(1);// name
 	IntegerField field1 = new IntegerField();//id
 	JTextField field3 = new JTextField(2);//location

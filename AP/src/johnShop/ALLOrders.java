@@ -43,7 +43,7 @@ public class ALLOrders extends FileData {
 	public void serializeOrder(OrderRequest order) {
 		
 		
-		String ord = newline+"Student Name: "+order.getStudent().getName()+newline+"Student ID"+order.getStudent().getStudentID()+newline+"Location: "+order.getLocation()+newline+"----SNACK ORDER--"+newline+order.getSnack().getName()+newline+"Total Price:  "+order.getTotalPrice();
+		String ord = newline+"Student Name: "+order.getStudent().getName()+newline+"Student ID"+order.getStudent().getStudentID()+newline+"Location: "+order.getLocation()+newline+"----SNACK ORDER--"+newline+order.getSnack().getName()+newline+"Total Price:  "+order.getTotalPrice()+newline+"###################################################"+newline;
 		
 		try {
 			
