@@ -1,0 +1,15 @@
+
+Student Name: Helios
+Student ID1222
+Location: Scit
+----SNACK ORDER--
+
+Snack Name	Quantity
+Snickers	 9
+Pringles	5
+Bun	 0
+Crix 	0
+Oreo 	0
+Total Price:  3300.0
+###################################################
+
