@@ -13,3 +13,18 @@ Oreo 	0
 Total Price:  3300.0
 ###################################################
 
+
+Student Name: Bergen
+Student ID123456
+Location: Kingston
+----SNACK ORDER--
+
+Snack Name	Quantity
+Snickers	 0
+Pringles	2
+Bun	 1
+Crix 	1
+Oreo 	0
+Total Price:  1080.0
+###################################################
+
