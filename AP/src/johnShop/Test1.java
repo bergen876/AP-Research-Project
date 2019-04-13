@@ -25,9 +25,9 @@ public class Test1 extends JFrame implements ActionListener {
 	JLabel  StuffOrdered= new JLabel("ITEMS ORDERED");
 	
 	//Declaring aLL Panels and assigning Background Color
-	ImagePanel panel1 = new ImagePanel(new ImageIcon("background3.png").getImage());
-	ImagePanel panel2 = new ImagePanel(new ImageIcon("background3.png").getImage());
-	ImagePanel panel3 = new ImagePanel(new ImageIcon("background3.png").getImage());
+	ImagePanel panel1 = new ImagePanel(new ImageIcon("Design//background3.png").getImage());
+	ImagePanel panel2 = new ImagePanel(new ImageIcon("Design//background3.png").getImage());
+	ImagePanel panel3 = new ImagePanel(new ImageIcon("Design//background3.png").getImage());
 	
 	
 
@@ -38,10 +38,10 @@ public class Test1 extends JFrame implements ActionListener {
 	IntegerField field1 = new IntegerField();//id
 	JTextField field3 = new JTextField(2);//location
 	JTextField field6 = new JTextField(1);// Total Price
-	Icon Snacky = new ImageIcon("Snack.png");
-	Icon SubmitIco = new ImageIcon("sub.png");
-	Icon SubmitIcon= new ImageIcon("john1.png");
-	Icon Login = new ImageIcon("loginV.png");
+	Icon Snacky = new ImageIcon("Design//Snack.png");
+	Icon SubmitIco = new ImageIcon("Design//sub.png");
+	Icon SubmitIcon= new ImageIcon("Design//john1.png");
+	Icon Login = new ImageIcon("Design//loginV.png");
 	JButton Snacks = new JButton(Snacky);
 	JButton Submit = new JButton(SubmitIco);
 	JButton LoginX = new JButton(Login);
@@ -81,7 +81,7 @@ public class Test1 extends JFrame implements ActionListener {
 	JLabel Label7 = new JLabel("Snickers  Price:200\n"
 			+ "");
 	
-	Icon Clear =  new ImageIcon("clear.png");
+	Icon Clear =  new ImageIcon("Design//clear.png");
 	
    JButton ClearOrder = new JButton(Clear);
    
@@ -97,7 +97,7 @@ public class Test1 extends JFrame implements ActionListener {
 		frame =new JFrame();
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Icon Backgrnd = new ImageIcon("background.png");
+		Icon Backgrnd = new ImageIcon("Design//background.png");
 		panel1.setBackground(Color.white);
 		
 		panel2.setBackground(Color.lightGray);
@@ -179,7 +179,7 @@ public class Test1 extends JFrame implements ActionListener {
 		
 		//Panel 3 Additions
 		
-		Icon image1 = new ImageIcon("jj1.png");
+		Icon image1 = new ImageIcon("Design//jj1.png");
 		JButton one2 = new JButton(image1);
 		
 		panel3.add(Labe4);
@@ -463,10 +463,10 @@ public class Test1 extends JFrame implements ActionListener {
 		 
 		 JScrollPane scroll = new JScrollPane(PrintOrders);
 		 frame2.add(scroll);
-		 ALLOrders win = ALLOrders.getInstance();
 		 
+		 Controller tester = new Controller();
 		 String orderview="";
-		 orderview = win.readall();
+		 orderview =tester.getOrders();
 		
 		PrintOrders.setText(orderview);
 			  

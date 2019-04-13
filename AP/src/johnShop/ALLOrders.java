@@ -47,7 +47,7 @@ public class ALLOrders extends FileData {
 		
 		try {
 			
-			 filewriter = new FileWriter("C:\\Users\\berge\\git\\AP\\order.txt",true);
+			 filewriter = new FileWriter("Design\\order.txt",true);
 			 print= new PrintWriter(filewriter);
 			 print.print(ord);
 			 print.print(newline);
@@ -82,7 +82,7 @@ public class ALLOrders extends FileData {
 			
 			
 			try {
-				read=  new FileReader("C:\\Users\\berge\\git\\AP\\order.txt");
+				read=  new FileReader("order.txt");
 				BufferedReader buff = new BufferedReader(read);
 				 while((y=buff.readLine())!=null) {
 					 x =x+newline+y;			
